@@ -1,5 +1,11 @@
 body {
     color: rgb(92, 92, 219); 
-    background: black 
-    
+    background: black;
+    margin: 0px;
 }
+
+header{
+    border-bottom: solid 2px rgb(115, 115, 214);
+
+}
+
