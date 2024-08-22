@@ -6,6 +6,21 @@ body {
 
 header{
     border-bottom: solid 2px rgb(115, 115, 214);
+    padding: 20px;
+    front-size: 40px;
+    color: rgb(255, 255, 255)
+}
 
+section{
+
+    background:rgb rgba(59, 2, 77, 0.849);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
 }
 
