@@ -1,38 +1,57 @@
-<html lang="pt-br">
+body {
+    color: rgb(109, 133, 243); 
+    background: black;
+    margin: 0px;
+    font-family: "Permanent Marker", cursive;
+}
 
-<head>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Vitilindex</title>
-</head>
+header{
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(78, 16, 179)    
+}
 
-</body>
+.chamada {
 
-<header>VITIFLIX</header>
+    background: rgba(56, 4, 71, 0.849);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
 
- <section>
-    <div class="chamada-texto">
-        <h1>Luan santana</h1>
-        <p>#luan santana</p>
-    </div>
+.chamada-texto {
+    margin-right: 5%;
+}
 
+h1 {
+    font-size: 30px;
 
+}
 
-    <div>
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/In0g1XoK9D4?si=zB-fQJQFq_5bA-Rj&amp;controls=0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
- </section>
+p {
+    font-size: 25px; 
+}
 
+.categoria-videos{
+    display: flex;
+    overflow-x: auto ;
+    gap: 15px;
+}
 
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
 
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+}
 
-
-
-
-</body>
-
-</html>
