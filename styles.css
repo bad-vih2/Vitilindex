@@ -3,6 +3,7 @@ body {
     background: black;
     margin: 0px;
     font-family: "Permanent Marker", cursive;
+    margin-bottom: 100px
 }
 
 header{
@@ -53,5 +54,10 @@ p {
 .categoria-videos img:hover {
     opacity: 1.0;
     border: 1px solid blue;
+}
+
+
+.categoria h2 {
+    color: rgb(78, 16, 179)
 }
 
